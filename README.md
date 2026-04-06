@@ -30,7 +30,7 @@ Save the downloaded files in directory name it model.
 Download the Fine-tuned Model Weights
 Download the fine-tuned weights from:
 https://huggingface.co/bioplusAI/fine-tuned-nucleotide-transformer-for-phase-separating-rnas
-Place the files in the directry weights directory.
+Place the files in the directry name it weights.
 
 Prepare Input Sequences
 Insert your query RNA sequences in FASTA format into the Input_sequences.txt file located in the Input_sequences directory.
