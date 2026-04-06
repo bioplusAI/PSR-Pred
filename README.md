@@ -25,13 +25,13 @@ conda activate PSR-Pred
 Download the Pre-trained Nucleotide Transformer
 Download the model from the following link:
 https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species
+Save the downloaded files in the Model/model directory.
 
-Save the downloaded files in the model/model directory.
 Download the Fine-tuned Model Weights
 Download the fine-tuned weights from:
 https://huggingface.co/bioplusAI/fine-tuned-nucleotide-transformer-for-phase-separating-rnas
+Place the files in the Model/weights directory.
 
-Place the files in the model/weights directory.
 Prepare Input Sequences
 Insert your query RNA sequences in FASTA format into the Input_sequences.txt file located in the Input_sequences directory.
 
