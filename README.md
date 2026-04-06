@@ -1,15 +1,43 @@
 # PSR-Pred
 To make predictions, follow these steps:
 
-Clone the PSR-Pred repository using command: git clone https://github.com/bioplusAI/PSR-Pred.git
-Launch a command-line interface (e.g., Command Prompt or Terminal).
-Navigate to the cloned repository using the command: cd PSR-Pred
-Create the conda environment by executing: conda env create -f environment/environment.yml
-Activate the newly created environment: conda activate PSR-Pred
-First download the Nuclotide transformer using this link https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species
-Start Jupyter Notebook by running: jupyter notebook
-Fine tune the Nucleotide transformer using source code, first adjuust the paths for downloaded nucleotide transformer and dataset, and then run the code
-Save the fine-tuned model
-Insert your query protein sequences (in FASTA format) into the Input_sequences.txt file located within the repository Input_sequences.
-Open the predictor.ipynb notebook from the pridictor directory in Jupyter Notebook and execute the code.
-Note: The initial fine tuning may require several minutes to complete, subsequent predictions will be executed within seconds. The fine-tuned model is > 25MB which exceed the guithub uploading filer size limit for tthat we have provide source code to first fine tune the model and then use it to make predictions.
+Clone the Repository
+Clone the PSR-Pred repository using the following command:
+
+git clone https://github.com/bioplusAI/PSR-Pred.git
+Open Command-Line Interface
+Launch a command-line interface such as Command Prompt (Windows) or Terminal (Linux/macOS).
+
+Navigate to the Repository Directory
+Move into the cloned repository folder:
+
+cd PSR-Pred
+
+Create the Conda Environment
+Create the required environment using the provided configuration file:
+
+conda env create -f environment/environment.yml
+
+Activate the Environment
+Activate the newly created environment:
+
+conda activate PSR-Pred
+Download the Pre-trained Nucleotide Transformer
+Download the model from the following link:
+https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species
+
+Save the downloaded files in the model/model directory.
+Download the Fine-tuned Model Weights
+Download the fine-tuned weights from:
+https://huggingface.co/bioplusAI/fine-tuned-nucleotide-transformer-for-phase-separating-rnas
+
+Place the files in the model/weights directory.
+Prepare Input Sequences
+Insert your query RNA sequences in FASTA format into the Input_sequences.txt file located in the Input_sequences directory.
+
+Launch Jupyter Notebook
+Start Jupyter Notebook by executing:
+
+jupyter notebook
+Run the Prediction Pipeline
+Open the sorce-code.ipynb notebook from the Source-code directory and execute all cells to perform predictions.
