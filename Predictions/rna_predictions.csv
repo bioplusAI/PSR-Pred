@@ -1,0 +1,21 @@
+Sequence_ID,Prediction,Probability
+1,Phase-separated RNA,0.9994
+2,Phase-separated RNA,0.9975
+3,Phase-separated RNA,0.9985
+4,Phase-separated RNA,0.9989
+5,Phase-separated RNA,0.9848
+6,Phase-separated RNA,0.9948
+7,Phase-separated RNA,0.987
+8,Phase-separated RNA,0.9925
+9,Phase-separated RNA,0.998
+10,Phase-separated RNA,0.9995
+11,Non-phase-separated RNA,0.0008
+12,Non-phase-separated RNA,0.0134
+13,Non-phase-separated RNA,0.0009
+14,Non-phase-separated RNA,0.0006
+15,Non-phase-separated RNA,0.0005
+16,Non-phase-separated RNA,0.0008
+17,Non-phase-separated RNA,0.0007
+18,Non-phase-separated RNA,0.0006
+19,Non-phase-separated RNA,0.0006
+20,Non-phase-separated RNA,0.0006
